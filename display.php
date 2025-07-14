@@ -38,7 +38,7 @@
 </head>
 <body>
 <?php
-$pass = "your_new_password"; // Replace with actual PostgreSQL password
+$pass = "rutuja_sarode"; // Replace with actual PostgreSQL password
 
 $conn = pg_connect("host=localhost dbname=project user=postgres password=$pass");
 if (!$conn) {

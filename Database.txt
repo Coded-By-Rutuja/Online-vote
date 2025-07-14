@@ -4,8 +4,8 @@ Data-Base Name :- project
 CREATE TABLE ele (e_name VARCHAR(20) NOT NULL,plus INTEGER,symbol VARCHAR(30),PRIMARY KEY (e_name));
 
 INSERT INTO ele VALUES ('Rutuja', 0, 'Rutuja.jpeg');
-INSERT INTO ele VALUES ('Shitija', 0, 'Shitija.jpg');
-INSERT INTO ele VALUES ('Rina', 0, 'Rina.png');
+INSERT INTO ele VALUES ('Kshitija', 0, 'Kshitija.jpg');
+INSERT INTO ele VALUES ('Kalpana', 0, 'Kalpana.png');
 INSERT INTO ele VALUES ('Rajesh', 0, 'Rajesh.jpeg');
 
 

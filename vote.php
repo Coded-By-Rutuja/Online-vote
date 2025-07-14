@@ -3,7 +3,7 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-$pass="your_new_password";
+$pass="rutuja_sarode";
 $conn = pg_connect("host=localhost port=5432 dbname=project user=postgres password=$pass");
 
 if (!$conn) {
@@ -36,9 +36,9 @@ function showMessage($message, $showForm = false, $vote_id = '') {
        <br>
 
         <label class="vote-option">
-            <input type="radio" name="candidate" value="Shitija">
-            <img src="Shitija.jpg" alt="Shitija" class="candidate-img">
-            Shitija
+            <input type="radio" name="candidate" value="Kshitija">
+            <img src="Kshitija.jpg" alt="Kshitija" class="candidate-img">
+            Kshitija
         </label><br>
 
         <label class="vote-option">
@@ -48,9 +48,9 @@ function showMessage($message, $showForm = false, $vote_id = '') {
         </label><br>
 
         <label class="vote-option">
-            <input type="radio" name="candidate" value="Rina">
-            <img src="Rina.png" alt="Rina" class="candidate-img">
-            Rina
+            <input type="radio" name="candidate" value="Kalpana">
+            <img src="Kalpana.png" alt="Kalpana" class="candidate-img">
+            Kalpana
         </label>
         <div class="button-group">
         <input type="submit" value="Vote" class="vote-button">

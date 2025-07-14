@@ -3,7 +3,7 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-$conn = pg_connect("host=localhost dbname=project user=postgres password=your_new_password");
+$conn = pg_connect("host=localhost dbname=project user=postgres password=rutuja_sarode");
 if (!$conn) {
     die("Connection failed: " . pg_last_error($conn));
 }
