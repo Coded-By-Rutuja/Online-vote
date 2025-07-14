@@ -7,7 +7,7 @@ $pass="rutuja_sarode";
 $conn = pg_connect("host=localhost port=5432 dbname=project user=postgres password=$pass");
 
 if (!$conn) {
-    die("Connection failed: " . pg_last_error($conn));
+    die("Connection failed: ");
 }
 
 function showMessage($message, $showForm = false, $vote_id = '') {
